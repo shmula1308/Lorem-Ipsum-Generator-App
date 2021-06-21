@@ -1,0 +1,36 @@
+/* font-family: 'Lato', sans-serif body;
+font-family: 'Mate SC', serif; title */
+
+/* RESETS */
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+/* GENERAL STYLING */
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif body;
+  background-color: #faf1e6;
+}
+
+h2 {
+  font-family: "Mate SC", serif;
+  color: #ffc074;
+  font-size: 3.3rem;
+  text-align: center;
+}
+
+/* LAYOUT */
+
+.generator {
+  max-width: 1200px;
+  background-color: #f9f9f9;
+  margin: 0 auto;
+}
+
+.generator__controls {
+  padding: 2em;
+}
